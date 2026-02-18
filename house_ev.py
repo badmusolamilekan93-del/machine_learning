@@ -155,7 +155,7 @@ def main():
     st.markdown("---")
 
     # ── GET RESULT button ──
-    if st.button("GET RESULT", use_container_width=True):
+    if st.button("GET RESULT"):
         if state == "" or furnishing == "":
             st.warning("⚠️ Please select both State and Furnishing.")
         else:
